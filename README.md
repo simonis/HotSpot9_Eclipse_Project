@@ -42,8 +42,9 @@ Finally, you can select an active build configuration (i.e. `linux-amd64-dbg`) f
 Project (jdk9-hs) -> Build configurations -> Set active
 ```
 
-For some unknown reason, the Eclipse CDT Indexer sometimes forgets your active build configuration. This can be easily fix under:
+For some unknown reason, the Eclipse CDT Indexer sometimes forgets your active build configuration. The following bug tracks this issue: https://bugs.eclipse.org/bugs/show_bug.cgi?id=205299. If you want to change your configuration frequently, the following setup is recommanded:
 
 ```
+Window -> Preferences -> C/C++ -> Indexer -> Build configuration for the indexer -> (choose) "Use active build configuration"
 Project (jdk9-hs) -> Properties -> C/C++ General -> Code Analysis -> Indexer -> Build configuration for the indexer -> (check) "Use active build configration" and "Reindex project on change of active build configuration"
 ```
