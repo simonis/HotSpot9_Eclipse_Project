@@ -28,13 +28,24 @@
 		<link>
 			<name>generated</name>
 			<type>2</type>
-			<locationURI>OUTPUT_ROOT/hotspot/linux_amd64_compiler2/generated</locationURI>
+			<locationURI>OUTPUT_ROOT/hotspot/variant-server/gensrc</locationURI>
 		</link>
 	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1471263388805</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-true-false-jdk.vm.ci</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
 	<variableList>
 		<variable>
 			<name>OUTPUT_ROOT</name>
-			<value>file:/share/output-jdk9-hs-comp-dbg</value>
+			<value>file:/priv/d046063/OpenJDK/output-jdk9-hs-comp-dbg</value>
 		</variable>
 	</variableList>
 </projectDescription>

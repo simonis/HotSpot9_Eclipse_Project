@@ -66,7 +66,7 @@
 							</builder>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1433691348" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.1247666585" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
-								<option id="gnu.cpp.compiler.option.preprocessor.def.2050408929" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+								<option id="gnu.cpp.compiler.option.preprocessor.def.2050408929" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ASSERT=1"/>
 									<listOptionValue builtIn="false" value="DEBUG=1"/>
 									<listOptionValue builtIn="false" value="AMD64=1"/>
@@ -83,11 +83,14 @@
 									<listOptionValue builtIn="false" value="isnanf=JUST_TO_PREVENT_INDEXER_ERRORS"/>
 									<listOptionValue builtIn="false" value="_LP64=1"/>
 									<listOptionValue builtIn="false" value="int64_t=long"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_x86"/>
+									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1104530167" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.838864032" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
-								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1670475429" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1670475429" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ASSERT=1"/>
 									<listOptionValue builtIn="false" value="DEBUG=1"/>
 									<listOptionValue builtIn="false" value="AMD64=1"/>
@@ -104,6 +107,9 @@
 									<listOptionValue builtIn="false" value="isnanf=JUST_TO_PREVENT_INDEXER_ERRORS"/>
 									<listOptionValue builtIn="false" value="_LP64=1"/>
 									<listOptionValue builtIn="false" value="int64_t=long"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_x86"/>
+									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1924198439" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -120,8 +126,8 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="generated|cpu/aarch64/|cpu/ppc/|cpu/sparc/|cpu/zero/|os/aix/|os/bsd/|os/solaris/|os/windows/|os_cpu/aix_ppc/|os_cpu/bsd_x86/|os_cpu/bsd_zero/|os_cpu/linux_aarch64/|os_cpu/linux_ppc/|os_cpu/linux_sparc/|os_cpu/linux_zero/|os_cpu/solaris_sparc/|os_cpu/solaris_x86/|os_cpu/windows_x86/|jdk.vm.ci/|share/vm/shark/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
-						<entry excluding="dependencies/|extensions/|saclasses/|tracefiles/|adjust-mflags|agent.classes.list|platform.current|sa-jdi.jar|sun_jvm_hotspot_asm_Disassembler.h|sun_jvm_hotspot_debugger_aarch64_AARCH64ThreadContext.h|sun_jvm_hotspot_debugger_amd64_AMD64ThreadContext.h|sun_jvm_hotspot_debugger_bsd_BsdDebuggerLocal.h|sun_jvm_hotspot_debugger_linux_LinuxDebuggerLocal.h|sun_jvm_hotspot_debugger_ppc64_PPC64ThreadContext.h|sun_jvm_hotspot_debugger_proc_ProcDebuggerLocal.h|sun_jvm_hotspot_debugger_sparc_SPARCThreadContext.h|sun_jvm_hotspot_debugger_windbg_WindbgDebuggerLocal.h|sun_jvm_hotspot_debugger_x86_X86ThreadContext.h|adfiles/adlc|adfiles/*.o" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="generated"/>
+						<entry excluding="generated|cpu/aarch64/|cpu/ppc/|cpu/sparc/|cpu/zero/|os/aix/|os/bsd/|os/solaris/|os/windows/|os_cpu/aix_ppc/|os_cpu/bsd_x86/|os_cpu/bsd_zero/|os_cpu/linux_aarch64/|os_cpu/linux_ppc/|os_cpu/linux_sparc/|os_cpu/linux_zero/|os_cpu/solaris_sparc/|os_cpu/solaris_x86/|os_cpu/windows_x86/|jdk.vm.ci/|share/vm/shark/|jdk.hotspot.agent/doc/|jdk.hotspot.agent/macosx/|jdk.hotspot.agent/scripts/|jdk.hotspot.agent/solaris/|jdk.hotspot.agent/test/|jdk.hotspot.agent/windows/|jdk.hotspot.agent/share/classes/" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry excluding="dependencies/|extensions/|saclasses/|tracefiles/|adjust-mflags|agent.classes.list|platform.current|sa-jdi.jar|sun_jvm_hotspot_asm_Disassembler.h|sun_jvm_hotspot_debugger_aarch64_AARCH64ThreadContext.h|sun_jvm_hotspot_debugger_amd64_AMD64ThreadContext.h|sun_jvm_hotspot_debugger_bsd_BsdDebuggerLocal.h|sun_jvm_hotspot_debugger_linux_LinuxDebuggerLocal.h|sun_jvm_hotspot_debugger_ppc64_PPC64ThreadContext.h|sun_jvm_hotspot_debugger_proc_ProcDebuggerLocal.h|sun_jvm_hotspot_debugger_sparc_SPARCThreadContext.h|sun_jvm_hotspot_debugger_windbg_WindbgDebuggerLocal.h|sun_jvm_hotspot_debugger_x86_X86ThreadContext.h|adfiles/adlc|adfiles/*.o|jvmtifiles/*.log|jvmtifiles/*.cmdline|jvmtifiles/*.html" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="generated"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -142,11 +148,18 @@
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.1261246038;cdt.managedbuild.toolchain.gnu.base.1261246038.2139345836;cdt.managedbuild.tool.gnu.c.compiler.base.1170026840;cdt.managedbuild.tool.gnu.c.compiler.input.2070812035">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.1261246038.2131762398;cdt.managedbuild.toolchain.gnu.base.1261246038.2131762398.;cdt.managedbuild.tool.gnu.cpp.compiler.base.1247666585;cdt.managedbuild.tool.gnu.cpp.compiler.input.1104530167">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.1261246038;cdt.managedbuild.toolchain.gnu.base.1261246038.2139345836;cdt.managedbuild.tool.gnu.cpp.compiler.base.336604173;cdt.managedbuild.tool.gnu.cpp.compiler.input.699239779">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.1261246038.2131762398;cdt.managedbuild.toolchain.gnu.base.1261246038.2131762398.;cdt.managedbuild.tool.gnu.c.compiler.base.838864032;cdt.managedbuild.tool.gnu.c.compiler.input.1924198439">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>
