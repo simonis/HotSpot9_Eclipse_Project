@@ -15,6 +15,11 @@ cp -r ${GIT_ROOT}/HotSpot_Eclipse_Project/.git .
 git reset --hard HEAD
 git pull
 ```
+If you've already imported this project before, you may want to edit/change its name:
+
+```
+vi src/.project 
+```
 
 Now you can import the project into Eclipse:
 
