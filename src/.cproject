@@ -40,6 +40,7 @@
 									<listOptionValue builtIn="false" value="int64_t=long"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_x86"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
 									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
 									<listOptionValue builtIn="false" value="VM_LITTLE_ENDIAN=1"/>
 								</option>
@@ -61,6 +62,7 @@
 									<listOptionValue builtIn="false" value="int64_t=long"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_x86"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
 									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
 									<listOptionValue builtIn="false" value="VM_LITTLE_ENDIAN=1"/>
 								</option>
@@ -124,6 +126,7 @@
 									<listOptionValue builtIn="false" value="int64_t=long"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_ppc"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
 									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
 									<listOptionValue builtIn="false" value="PPC64=1"/>
 									<listOptionValue builtIn="false" value="TARGET_ARCH_ppc=1"/>
@@ -144,6 +147,7 @@
 									<listOptionValue builtIn="false" value="int64_t=long"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_ppc"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
 									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
 									<listOptionValue builtIn="false" value="PPC64=1"/>
 									<listOptionValue builtIn="false" value="TARGET_ARCH_ppc=1"/>
@@ -207,6 +211,7 @@
 									<listOptionValue builtIn="false" value="int64_t=long"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_ppc"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
 									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
 									<listOptionValue builtIn="false" value="PPC64=1"/>
 									<listOptionValue builtIn="false" value="TARGET_ARCH_ppc=1"/>
@@ -228,6 +233,7 @@
 									<listOptionValue builtIn="false" value="int64_t=long"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_OS=_linux"/>
 									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_CPU=_ppc"/>
+									<listOptionValue builtIn="false" value="INCLUDE_SUFFIX_COMPILER=_gcc"/>
 									<listOptionValue builtIn="false" value="DONT_USE_PRECOMPILED_HEADER=1"/>
 									<listOptionValue builtIn="false" value="PPC64=1"/>
 									<listOptionValue builtIn="false" value="TARGET_ARCH_ppc=1"/>
