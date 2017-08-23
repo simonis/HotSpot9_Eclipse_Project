@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>jdk9-hs-comp</name>
+	<name>jdk10-hs</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -45,7 +45,7 @@
 	<variableList>
 		<variable>
 			<name>OUTPUT_ROOT</name>
-			<value>file:/priv/d046063/OpenJDK/output-jdk9-hs-comp-dbg</value>
+			<value>file:/share/output-jdk10-hs-dbg</value>
 		</variable>
 	</variableList>
 </projectDescription>
